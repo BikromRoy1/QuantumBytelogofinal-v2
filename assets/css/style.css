@@ -3377,3 +3377,187 @@ img.client-logo {
   display: block;
   margin-top: 30px;
 }
+/*--------------------------------------------------------------
+# project-details
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Project Details
+--------------------------------------------------------------*/
+.project-details {
+  position: relative;
+  display: block;
+  padding: 80px 0 140px;
+  z-index: 1;
+}
+
+.project-details__left {
+  position: relative;
+  display: block;
+}
+
+.project-details__img {
+  position: relative;
+  display: block;
+}
+
+.project-details__img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.project-details__title-1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -1.44px;
+    text-transform: capitalize;
+    margin-top: 41px;
+    margin-bottom: 22px;
+}
+
+.project-details__title-2 {
+   font-size: 28px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -1.44px;
+  text-transform: capitalize;
+  margin-top: 45px;
+  margin-bottom: 29px;
+}
+
+.project-details__text-and-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-top: 31px;
+  margin-bottom: 61px;
+}
+
+.project-details__text-img {
+  position: relative;
+  display: block;
+}
+
+.project-details__text-img img {
+  width: auto;
+  border-radius: 20px;
+}
+
+.project-details__title-3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -1.44px;
+  text-transform: capitalize;
+}
+
+.project-details__text-4 {
+  margin-top: 29px;
+  margin-bottom: 31px;
+  color: #6E777D;
+}
+.project-details-p-color{
+  color: #6E777D;
+}
+.project-details__img-and-points {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.project-details__points-img {
+  position: relative;
+  display: block;
+  max-width: 410px;
+  width: 100%;
+}
+
+.project-details__points-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.project-details__points {
+  position: relative;
+  display: block;
+}
+
+.project-details__points li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.project-details__points li + li {
+  margin-top: 16px;
+}
+
+.project-details__points li .icon {
+  position: relative;
+  display: inline-block;
+}
+
+.project-details__points li .icon span {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  color: var(--erepair-base);
+}
+
+.project-details__points li p {
+  color: #232323;
+  margin-bottom: 0;
+}
+
+.project-details__sidebar {
+  position: relative;
+  display: block;
+}
+
+.project-details__information {
+  position: relative;
+  display: block;
+  background-color: #f4fbf9;
+  border-radius: 20px;
+  padding: 40px 40px 40px;
+  margin-bottom: 60px;
+}
+
+.project-details__information-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.72px;
+  margin-bottom: 30px;
+}
+
+.project-details__information-list {
+  position: relative;
+  display: block;
+}
+
+.project-details__information-list li {
+  position: relative;
+  display: block;
+  background-color: var(--contrast-color);
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  padding: 18px 30px 19px;
+}
+
+.project-details__information-list li + li {
+  margin-top: 12px;
+}
+
+.project-details__information-list li h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #232323;
+  margin-bottom: 7px;
+}
