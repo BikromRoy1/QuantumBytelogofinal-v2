@@ -1858,6 +1858,9 @@ img.client-logo {
 /*--------------------------------------------------------------
 # Blog One
 --------------------------------------------------------------*/
+.blog-page{
+   padding: 80px 0 120px;
+}
 .blog-one {
   position: relative;
   display: block;
@@ -2297,7 +2300,7 @@ img.client-logo {
 .blog-details {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 80px 0 120px;
   z-index: 1;
 }
 
@@ -2989,7 +2992,7 @@ img.client-logo {
   padding-top: 120px;
   padding-bottom: 110px;
   /* background-color: #edeaf4; */
-   background-image: linear-gradient(
+  background-image: linear-gradient(
     90deg,
     #e1d7f3 0%,
     #d8f5f3 49.99%,
@@ -3158,4 +3161,48 @@ img.client-logo {
 }
 .eduhive-breadcrumb li a:hover {
   color: #674cef;
+}
+
+/*-------------------------------
+# Banner
+--------------------------------*/
+.main-banner {
+  position: relative;
+  color: #fff;
+  padding: 110px 0;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.main-banner:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #002935;
+  opacity: 0.9;
+  z-index: -1;
+}
+.main-banner h2,
+.main-banner p {
+  color: #fff;
+}
+.main-banner h2 {
+  margin-bottom: 15px;
+}
+.main-banner p {
+  margin-bottom: 0;
+}
+.main-banner a {
+  color: var(--accent-color);
+}
+.main-banner i {
+  position: relative;
+  font-size: 13px;
+}
+.main-banner .bclink {
+  color: #fff;
 }
