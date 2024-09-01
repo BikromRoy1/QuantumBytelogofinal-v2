@@ -1858,8 +1858,8 @@ img.client-logo {
 /*--------------------------------------------------------------
 # Blog One
 --------------------------------------------------------------*/
-.blog-page{
-   padding: 80px 0 120px;
+.blog-page {
+  padding: 80px 0 120px;
 }
 .blog-one {
   position: relative;
@@ -3205,4 +3205,175 @@ img.client-logo {
 }
 .main-banner .bclink {
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+.single-service {
+  padding: 80px 0 120px;
+}
+.optech-service-details-wrap img {
+  margin-bottom: 50px;
+  border-radius: 18px;
+}
+.optech-service-details-item {
+  margin-bottom: 45px;
+}
+.optech-service-details-item:last-child {
+  margin-bottom: 0;
+}
+.optech-service-details-item h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  line-height: 1.26em;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.optech-service-details-item p {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #585b6f;
+}
+.optech-service-details-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.optech-service-sidebar {
+  margin-left: 30px;
+}
+@media (max-width: 1199px) {
+  .optech-service-sidebar {
+    margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .optech-service-sidebar {
+    margin-top: 40px;
+  }
+}
+.optech-service-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.optech-service-menu ul li {
+  margin-bottom: 14px;
+}
+.optech-service-menu ul li:last-child {
+  margin-bottom: 0;
+}
+.optech-service-menu ul li a {
+  font-weight: 600;
+  display: flex;
+  border-radius: 6px;
+  padding: 14px 24px;
+  transition: all 0.4s;
+  color: #171717;
+  justify-content: space-between;
+  background-color: #f4fbf9;
+}
+.optech-service-menu ul li a:hover {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+.optech-service-menu ul li a i {
+  font-size: 20px;
+}
+
+.optech-icon-list {
+  text-align: left;
+}
+.optech-icon-list ul li {
+  font-weight: 600;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 12px;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  color: #171717;
+}
+.optech-icon-list ul li:last-child {
+  margin-bottom: 0;
+}
+.optech-icon-list ul li i {
+  left: 0;
+  top: 0;
+  font-size: 24px;
+  position: absolute;
+  color: #171717;
+}
+
+.optech-service-contact {
+  margin-top: 40px;
+}
+.project-details__get-started {
+  position: relative;
+  display: block;
+  background-color: #f4fbf9;
+  border-radius: 20px;
+  padding: 40px 40px 40px;
+}
+
+.project-details__get-started-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.project-details__get-started-text {
+  margin-top: 18px;
+  margin-bottom: 29px;
+  color: #6e777d;
+}
+
+.project-details__get-started-points {
+  position: relative;
+  display: block;
+}
+
+.project-details__get-started-points li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.project-details__get-started-points li + li {
+  margin-top: 11px;
+}
+
+.project-details__get-started-points li .icon {
+  position: relative;
+  display: inline-block;
+  top: 5px;
+}
+
+.project-details__get-started-points li .icon span {
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  color: #171717;
+}
+
+.project-details__get-started-points li p {
+  color: #232323;
+  margin: 0;
+  font-size: 15px;
+}
+
+.project-details__get-started-points li p a {
+  color: #232323;
+}
+
+.project-details__get-started-points li p a:hover {
+  color: var(--accent-color);
+}
+
+.project-details__get-started-btn-box {
+  position: relative;
+  display: block;
+  margin-top: 30px;
 }
