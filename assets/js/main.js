@@ -387,6 +387,8 @@
     }
   });
 
+  
+
   // window scroll event
 
   $(window).on('scroll', function () {
@@ -426,4 +428,6 @@
   });
 
   $('select:not(.ignore)').niceSelect();
+
+
 })(jQuery);

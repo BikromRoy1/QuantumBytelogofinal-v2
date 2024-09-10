@@ -1,5 +1,5 @@
 (function () {
-  'use strict';
+  ('use strict');
 
   /**
    * Apply .scrolled class to the body as the page is scrolled down
@@ -105,6 +105,13 @@
         }, 100);
       }
     }
+  });
+
+  /**
+   * Initiate glightbox
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox',
   });
 
   /**
