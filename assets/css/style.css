@@ -1381,6 +1381,29 @@ a {
   object-fit: cover;
   border: 5px solid #fff;
 }
+.about-sub {
+  margin-bottom: 20px;
+}
+.single_about {
+  display: flex;
+  align-items: center;
+}
+.single_about .aicon {
+  margin-right: 20px;
+}
+.single_about .aicon svg {
+  width: 50px;
+  vertical-align: middle;
+}
+.sbcontent h4 {
+  margin-top: 0px;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.sbcontent p {
+}
 /* about us section */
 /* product */
 .product-card {
@@ -1388,7 +1411,7 @@ a {
   border-radius: 12px;
   box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
     0 0.25rem 0.5rem rgba(0, 0, 0, 0.14);
-  height: 250px;
+  height: 100%;
   padding: 20px;
   text-align: left;
   -webkit-transition: 0.5s;
@@ -1541,6 +1564,9 @@ img.client-logo {
 .our-process {
   padding: 80px 0 100px 0;
   /* background: #f1f9f7; */
+}
+.our-process-2 {
+  padding: 40px 0 150px 0 !important;
 }
 .quantum-shape2 {
   position: absolute;
@@ -1908,7 +1934,7 @@ img.client-logo {
   padding: 80px 0 120px;
 }
 .team-page {
-  padding: 80px 0 120px;
+  padding: 80px 0 20px;
 }
 .blog-one {
   position: relative;
@@ -4488,3 +4514,4 @@ img.client-logo {
 .all-products {
   padding: 80px 0 130px;
 }
+
